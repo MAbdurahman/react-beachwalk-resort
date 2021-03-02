@@ -5,8 +5,8 @@ import GlobalStyles from '../components/global/GlobalStyles';
 function App() {
 	return (
 		<>
-    <GlobalStyles/>
-			<HomePage/>
+			<GlobalStyles />
+			<HomePage />
 		</>
 	);
 }
