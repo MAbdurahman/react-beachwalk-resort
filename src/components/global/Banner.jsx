@@ -64,7 +64,7 @@ const BannerWrapper = styled(Banner)`
 	${media.tablet` width: 70vw;
       ${setBorder({ width: '6px', color: setColor.primaryColor })};
       p {
-         width: 60%;
+         width: 75%;
       }`}
 	h1 {
 		/* animation */
