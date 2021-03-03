@@ -8,6 +8,27 @@ import {
 	media,
 } from './../../styles/Styles';
 
+const fadeIn = (start, point, end) => {
+	const animation = keyframes`
+0%{
+   opacity:0;
+   transform:translateY(${start})
+}
+50%{
+   opacity:0.5;
+   transform:translateY(${point})
+}
+100%{
+   opacity:1;
+   transform:translateY(${end})
+}
+
+`;
+	return css`
+		animation: ${animation} 3s ease-in-out;
+	`;
+};
+
 const Banner = ({ children, className, greeting, title, text }) => {
 	return (
 		<div className={className}>
@@ -47,9 +68,11 @@ const BannerWrapper = styled(Banner)`
       }`}
 	h1 {
 		/* animation */
+		${fadeIn('100%', '-10%', '0')}
 	}
 	.info {
 		/* animation */
+		${fadeIn('-100%', '10%', '0')}
 	}
 `;
 
