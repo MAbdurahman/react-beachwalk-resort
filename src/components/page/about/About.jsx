@@ -51,10 +51,16 @@ const AboutCenter = styled.div`
 	${media.desktop`
    width:100vw;
    max-width:1170px;
+	.about-img {
+		padding: ${setRem(0)};
+	}
+	.about-info {
+		padding-left: ${setRem(32)};
+	}
    display:grid;
    grid-template-columns:1fr 1fr;
    grid-column-gap:${setRem(32)};
-   .about-img{
+   .about-img, .about-info {
    align-self:center;
    }
    .about-info{

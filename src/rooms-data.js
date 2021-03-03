@@ -2,6 +2,7 @@
 import room1 from '../src/img/room1.jpeg';
 import room2 from '../src/img/room2.jpeg';
 import room3 from '../src/img/room3.jpeg';
+import room4 from '../src/img/room4.jpg';
 
 export default [
 	{
@@ -23,9 +24,17 @@ export default [
 	{
 		id: 3,
 		img: room3,
-		title: 'standard queen room',
+		title: 'queen suite',
 		info:
 			'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est quisquam corrupti dicta tempora sequi sapiente!',
 		price: 375,
+	},
+	{
+		id: 4,
+		img: room4,
+		title: 'king suite',
+		info:
+			'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est quisquam corrupti dicta tempora sequi sapiente!',
+		price: 475,
 	},
 ];
