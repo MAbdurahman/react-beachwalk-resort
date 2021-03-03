@@ -1,9 +1,11 @@
 import React from 'react';
+import Hero from '../../../global/Hero';
+import homeImage from '../../../../img/homeBcg.jpeg';
 
 export default function Header() {
    return (
-      <div>
-         <h2>Header</h2>
-      </div>
+      <Hero img={homeImage} >
+         <h1>Beachwalk Resort</h1>
+      </Hero>
    );
 };

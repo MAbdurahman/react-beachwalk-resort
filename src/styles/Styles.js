@@ -14,7 +14,7 @@ export const setFont = {
 };
 
 export const setFlex = ({ x = 'center', y = 'center' } = {}) => {
-	return `display:flex;align-items:${y};justify-content:${x}`;
+	return `display:flex;justify-content:${x};align-items:${y};`;
 };
 
 export const setBackground = ({
