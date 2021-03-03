@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.js": "/react-beachwalk-resort/static/js/main.81716e2d.chunk.js",
+    "main.js.map": "/react-beachwalk-resort/static/js/main.81716e2d.chunk.js.map",
+    "runtime-main.js": "/react-beachwalk-resort/static/js/runtime-main.d547bbd3.js",
+    "runtime-main.js.map": "/react-beachwalk-resort/static/js/runtime-main.d547bbd3.js.map",
+    "static/js/2.37816f5a.chunk.js": "/react-beachwalk-resort/static/js/2.37816f5a.chunk.js",
+    "static/js/2.37816f5a.chunk.js.map": "/react-beachwalk-resort/static/js/2.37816f5a.chunk.js.map",
+    "static/js/3.13809ef8.chunk.js": "/react-beachwalk-resort/static/js/3.13809ef8.chunk.js",
+    "static/js/3.13809ef8.chunk.js.map": "/react-beachwalk-resort/static/js/3.13809ef8.chunk.js.map",
+    "index.html": "/react-beachwalk-resort/index.html",
+    "static/js/2.37816f5a.chunk.js.LICENSE.txt": "/react-beachwalk-resort/static/js/2.37816f5a.chunk.js.LICENSE.txt",
+    "static/media/aboutBcg.07cd2fdf.jpeg": "/react-beachwalk-resort/static/media/aboutBcg.07cd2fdf.jpeg",
+    "static/media/homeBcg.0bb3fe0a.jpeg": "/react-beachwalk-resort/static/media/homeBcg.0bb3fe0a.jpeg",
+    "static/media/room1.76b04a67.jpeg": "/react-beachwalk-resort/static/media/room1.76b04a67.jpeg",
+    "static/media/room2.0545cf74.jpeg": "/react-beachwalk-resort/static/media/room2.0545cf74.jpeg",
+    "static/media/room3.ce23884d.jpeg": "/react-beachwalk-resort/static/media/room3.ce23884d.jpeg",
+    "static/media/room4.ab4a359e.jpg": "/react-beachwalk-resort/static/media/room4.ab4a359e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d547bbd3.js",
+    "static/js/2.37816f5a.chunk.js",
+    "static/js/main.81716e2d.chunk.js"
+  ]
+}
